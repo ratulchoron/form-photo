@@ -1,0 +1,9 @@
+nav > ul > li{ text-align: center; 
+    text-decoration: none; margin-right: 15px; 
+    display: inline; cursor: pointer; 
+    background-color: rgb(5, 94, 94);
+     color: whitesmoke;
+     padding: 10px;
+     border: none;
+     border-radius: 5px; text-decoration: none;
+  } li:hover{  text-emphasis-color: blue; }

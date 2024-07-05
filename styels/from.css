@@ -1,40 +1,44 @@
 body{ font-family: Arial, Helvetica, sans-serif;
-      background-color: #d69999;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      height: 100vh;
-      margin: 0;
-    }
+    background-color: #d69999;
+    display: flex;
+   justify-content: center;align-items: center;
+   
+   height: 100vh; margin: 0; 
+    
+  } 
 
     .form1 {background-color: #f0f0f0;
         padding: 20px;
-        border: 2px solid #ccc;
+        border: 40px solid #ccc;
         border-radius: 10px;
         box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-        width: 300px ;
+        width: 80%;   margin: 20px;
        }   
 form{display: flex;
-    flex-direction: column;
+    flex-direction: column; margin: 20px; padding: auto; border: 20px;
     } 
    
 
-
+h1{     margin: 20px; background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;   width: 80%; }
 
     label {
         margin-bottom: 5px;
         font-weight: bold;
     }
     
-    input[type="text"],
-    input[type="email"],
+    
     input [type="number"],
     input  [type="password" ],
     input  [type="file" ],
     input  [type="date" ],
 
     textarea {
-        width: 100%;
+        width: 80%;
         padding: 10px;
         margin-bottom: 15px;
         border: 1px solid #ccc;
@@ -60,10 +64,10 @@ form{display: flex;
 
     footer {
         text-align: center;
-        padding: 10px 0;
+        padding: 10px ;
         background-color: #4CAF50;
         color: white;
         position: fixed;
         width: 100%;
-        bottom: 0; }
+        bottom: 0; margin: 0;  }
 
