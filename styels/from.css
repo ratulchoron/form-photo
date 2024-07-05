@@ -55,3 +55,15 @@ form{display: flex;
     input[type="submit"]:hover {
         background-color: #45a049;
     }
+
+
+
+    footer {
+        text-align: center;
+        padding: 20px 0;
+        background-color: #4CAF50;
+        color: white;
+        position: fixed;
+        width: 100%;
+        bottom: 0; }
+
